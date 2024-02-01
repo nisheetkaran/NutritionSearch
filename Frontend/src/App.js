@@ -23,9 +23,9 @@ function App() {
   // Define background styles for light and dark modes
   const backgroundStyle = {
     background: darkMode
-      ? 'linear-gradient(135deg, #485563 0%, #29323c 100%)' // Dark Mode Gradient
-      : 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', // Light Mode Gradient
-    minHeight: '100vh', // Ensure background covers full viewport height
+      ? 'linear-gradient(135deg, #485563 0%, #29323c 100%)' 
+      : 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+    minHeight: '100vh', 
     color: darkMode ? '#ffffff' : '#000000'
   };
 
